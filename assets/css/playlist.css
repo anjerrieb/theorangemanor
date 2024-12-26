@@ -959,7 +959,62 @@ p.track-artist{
   cursor: pointer;
 }
 
-
+@media only screen and (min-width: 325px) and (max-width: 768px){
+  .background-video{
+    height: 715px;
+  }
+  .now-playing{
+    right: unset;
+    position: absolute;
+  }
+  .right-section{
+    width: 120.5%;
+  }
+  .nav-center,
+  .progress-bar,
+  .volume,
+  .control-button.previous,
+  .control-button.next,
+  .sidebar,
+  .playing-info,
+  .artist-info{
+    display: none;
+  }
+  .profile-avatar img{
+    width: 130px;
+    height: 130px;
+  }
+  .profile-info h1{
+    font-size: 24px;
+  }
+  .top-artists-section .cover img, .top-artists-section .artists-grid img{
+    width: 150px;
+    height: 150px;
+  }
+  .artists-grid{
+    flex-wrap: wrap;
+  }
+  .artist span{
+    width: 145px;
+  }
+  .play-pause{
+    margin-left: 120px;
+  }
+  .now-playing{
+    z-index: 0;
+  }
+  .spotify-ui{
+    z-index: 1;
+    margin: 0;
+    background: transparent;
+    padding: 40px 20px 150px;
+  }
+  .modal-content{
+    margin: 150px auto;
+  }
+  .close{
+    top: 65px;
+  }
+}
 
 </style>
-
