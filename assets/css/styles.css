@@ -1005,7 +1005,7 @@ p.track-artist{
     z-index: 1;
     margin: 0;
     background: transparent;
-    padding: 40px 20px 150px;
+    padding: 40px 20px 250px;
   }
   .modal-content{
     margin: 150px auto;
@@ -1013,9 +1013,9 @@ p.track-artist{
   .close{
     top: 65px;
   }
-
-
+  button#play-pause svg{
+    fill: #000000!important;
+  }
 }
-
 
 </style>
