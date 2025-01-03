@@ -1016,6 +1016,9 @@ p.track-artist{
   button#play-pause svg{
     fill: #000000!important;
   }
+  .play-pause{
+    background-color: white!important;
+  }
 }
 
 </style>
